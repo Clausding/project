@@ -17,16 +17,6 @@ public class PropsUtil {
     private static final Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
 
     /**
-     * 测试方法
-     * @param args
-     */
-    public static void main(String[] args) {
-        Properties props = loadProps("test.properties");
-        String value = getString(props, "test");
-        System.out.println("value:" + value);
-    }
-
-    /**
      * 获取String类型的属性值
      *
      * @param props Properties类型对象
