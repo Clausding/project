@@ -1,6 +1,5 @@
-package com.dingya.chapter3.util;
+package com.dingya.smartframework.util;
 
-import com.dingya.smartframework.util.PropsUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
