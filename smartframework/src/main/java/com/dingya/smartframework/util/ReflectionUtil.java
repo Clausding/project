@@ -3,7 +3,7 @@ package com.dingya.smartframework.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
@@ -13,6 +13,23 @@ import java.lang.reflect.Method;
  */
 public class ReflectionUtil {
     private static final Logger LOGGER = LoggerFactory.getLogger(ReflectionUtil.class);
+
+    /**
+     * 通过反射设置成员变量
+     *
+     * @param obj   成员变量所在对象
+     * @param field 成员变量对象
+     * @param value 要设置的值
+     */
+    public static void setField(Object obj, Field field, Object value) {
+        try {
+            field.setAccessible(true);
+            field.set(obj, value);
+        } catch (IllegalAccessException e) {
+            LOGGER.error("set field failure" + e);
+            throw new RuntimeException();
+        }
+    }
 
     /**
      * 通过反射调用方法

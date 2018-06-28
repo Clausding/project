@@ -1,5 +1,6 @@
 package com.dingya.website.controller;
 
+import com.dingya.smartframework.annotation.Action;
 import com.dingya.smartframework.annotation.Controller;
 
 /**
@@ -9,4 +10,16 @@ import com.dingya.smartframework.annotation.Controller;
  */
 @Controller
 public class CustomerController {
+    @Action("get:/customers")
+    public void showCustomerList() {
+    }
+    @Action("get:/customer")
+    public void showCustomer() {
+    }
+    @Action("get:/add")
+    public void addCustomer() {
+    }
+    @Action("get:/delete")
+    public void deleteCustomer() {
+    }
 }

@@ -5,36 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed00a775-4557-414e-9eea-408450fc5a24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/helper/ClassHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/util/ClassUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/util/PrintUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ClassHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ConfigHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ClassUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resource/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resource/smart.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/HelperLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/BeanHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/IocHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/resources/smart.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/chapter3/util/PropsUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/util/PropsUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/target/classes/smart.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/target/classes/smart.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/target/test-classes/com/dingya/chapter3/util/PropsUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/target/classes/com/dingya/website/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/target/classes/com/dingya/website/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ConfigHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resource/test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dingya/smartframework/helper/ConfigHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingya/smartframework/helper/ConfigHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ReflectionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/smart-framework-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/smart-framework-1.0.0.jar" afterDir="false" />
     </list>
@@ -49,30 +38,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java">
+      <file leaf-file-name="Param.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Param.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#814#824#0" expanded="true" />
-                <element signature="e#749#759#0" expanded="true" />
-                <element signature="e#697#707#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +96,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ClassHelperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ReflectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/BeanHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/CollectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/IocHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Hander.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/HelperLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Param.java" />
       </list>
     </option>
   </component>
@@ -154,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,46 +180,71 @@
               <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartframework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartframework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="smartframework" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapter3" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -452,32 +466,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" x="458" y="60" width="450" height="607" id="Maven Projects" order="3" weight="0.32900763" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.76632303" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34732825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27328244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24961832" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" auto_hide="true" x="678" y="116" width="295" height="544" id="Documentation" side_tool="true" type="FLOATING" weight="0.32977098" />
+      <window_info anchor="right" auto_hide="true" x="678" y="116" width="295" height="544" id="Documentation" order="4" side_tool="true" type="FLOATING" weight="0.32977098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -492,6 +505,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/IocHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/ConfigConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -503,17 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,9 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,20 +572,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/resource/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/test.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/PropsUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -576,34 +587,11 @@
     <entry file="file://$PROJECT_DIR$/src/test/resource/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ConfigHelperTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ConfigHelperTestTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ConfigHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,17 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,10 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="928" column="32" lean-forward="true" selection-start-line="928" selection-start-column="32" selection-end-line="928" selection-end-column="32" />
-          <folding>
-            <element signature="e#34440#34441#0" expanded="true" />
-            <element signature="e#34491#34492#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,9 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,19 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ClassUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="54" column="90" lean-forward="true" selection-start-line="54" selection-start-column="90" selection-end-line="54" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,27 +693,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ReflectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/CollectionUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/IocHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#814#824#0" expanded="true" />
-            <element signature="e#749#759#0" expanded="true" />
-            <element signature="e#697#707#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/BeanHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="192">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ClassHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/HelperLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ClassUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="125" column="46" lean-forward="true" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Param.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
           </folding>
         </state>
       </provider>
