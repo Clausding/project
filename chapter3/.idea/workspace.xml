@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bb85e2-1168-45d8-95af-e0a012a2531b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/HelperLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Param.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/BeanHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/IocHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/test/java/com/dingya/smartframework/helper/BeanHelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/test/java/com/dingya/smartframework/helper/ControllerHelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dingya/website/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingya/website/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/test/java/com/dingya/smartframework/util/ReflectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/ReflectionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -449,6 +433,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928944" />
