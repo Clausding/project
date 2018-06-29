@@ -62,7 +62,10 @@ public final class ControllerHelper {
      * @return 处理器
      */
     public static Handler getHandler(String requestMethod, String requestPath) {
-        Request request = new Request(requestMethod, requestMethod);
+        Request request = new Request(requestMethod, requestPath);
+        System.out.println("-------request--------" + request);
+        System.out.println("-------ACTION_MAP--------");
+        printMap();
         Handler handler = ACTION_MAP.get(request);
         return handler;
     }

@@ -2,7 +2,6 @@ package com.dingya.smartframework.helper;
 
 import com.dingya.smartframework.annotation.Inject;
 import com.dingya.smartframework.util.ReflectionUtil;
-import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;
 import org.apache.commons.lang3.ArrayUtils;
 
@@ -27,8 +26,8 @@ public class IocHelper {
                     //遍历这个类的所有成员变量
                     for (Field beanField : fields) {
                         if (beanField.isAnnotationPresent(Inject.class)) {
-                            Class<? extends Field> beanFieldClass = beanField.getClass();
-                            Field beanFieldInstance = BeanHelper.getBean(beanFieldClass);
+                            Class<?> beanFieldClass = beanField.getType();
+                            Object beanFieldInstance = BeanHelper.getBean(beanFieldClass);
                             if (beanFieldInstance != null) {
                                 ReflectionUtil.setField(bean, beanField, beanFieldInstance);
                             }
