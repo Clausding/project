@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:09:11:05 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:09:11:15 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-4 2699
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:09:11:15 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:14:20:54 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-1 1969
+127.0.0.1 - - [02/Jul/2018:14:57:35 +0800] "GET / HTTP/1.1" 404 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:10:22 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-1 1464
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:11:56 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-1 498
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:12:40 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-1 610
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:15:13 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-1 505
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:15:21 +0800] "GET /chapter3/customer_edit?id=1 HTTP/1.1" 200 1405 http-bio-8080-exec-4 550
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:15:21 +0800] "GET /chapter3/customer_edit?id=1 HTTP/1.1" 200 1405 http-bio-8080-exec-3 1426
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:15:37 +0800] "PUT /chapter3/customer_edit HTTP/1.1" 200 14 http-bio-8080-exec-7 742
+0:0:0:0:0:0:0:1 - - [02/Jul/2018:17:15:37 +0800] "GET /chapter3/customer HTTP/1.1" 200 942 http-bio-8080-exec-8 34

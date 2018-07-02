@@ -1,10 +1,7 @@
 package com.dingya.smartframework;
 
 import com.dingya.smartframework.annotation.Controller;
-import com.dingya.smartframework.helper.BeanHelper;
-import com.dingya.smartframework.helper.ClassHelper;
-import com.dingya.smartframework.helper.ControllerHelper;
-import com.dingya.smartframework.helper.IocHelper;
+import com.dingya.smartframework.helper.*;
 import com.dingya.smartframework.util.ClassUtil;
 
 /**
@@ -18,6 +15,7 @@ public class HelperLoader {
         Class<?> [] classes = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
                 ControllerHelper.class
         };

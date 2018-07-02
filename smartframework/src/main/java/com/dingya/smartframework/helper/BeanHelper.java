@@ -2,6 +2,7 @@ package com.dingya.smartframework.helper;
 
 
 import com.dingya.smartframework.util.ReflectionUtil;
+import net.sf.cglib.beans.BeanMap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,6 +25,17 @@ public class BeanHelper {
             Object obj = ReflectionUtil.newInstance(beanClass);
             BEAN_MAP.put(beanClass, obj);
         }
+    }
+
+    /**
+     * 向容器中放入bean对象
+     *
+     * @param cls    类
+     * @param object 对象
+     */
+    public static void setBean(Class<?> cls, Object object) {
+        System.out.printf("object: %s",object);
+        BEAN_MAP.put(cls, object);
     }
 
     /**
