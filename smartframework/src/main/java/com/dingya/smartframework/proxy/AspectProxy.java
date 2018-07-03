@@ -7,22 +7,33 @@ import java.lang.reflect.Method;
 
 /**
  * @Author: dingya
- * @Description:切面基础类，所有切面类都继承此类
+ * @Description:切面基础类
  * @Date: Created in 10:25 2018/7/2
  */
 public abstract class AspectProxy implements Proxy {
     private static final Logger LOGGER = LoggerFactory.getLogger(AspectProxy.class);
 
+    /**
+     * 执行代理操作
+     * @param proxyChain
+     * @return
+     * @throws Throwable
+     */
     @Override
     public final Object doProxy(ProxyChain proxyChain) throws Throwable {
+        // 本方法返回值
         Object result = null;
+        // 目标类
         Class<?> targetClass = proxyChain.getTargetClass();
+        // 目标方法
         Method targetMethod = proxyChain.getTargetMethod();
+        // 方法参数
         Object[] methodParams = proxyChain.getMethodParams();
         begin();
         try {
             if (intercept(targetClass, targetMethod, methodParams)) {
                 before(targetClass, targetMethod, methodParams);
+                // 执行代理链条
                 result = proxyChain.doProxyChain();
                 after(targetClass, targetMethod, methodParams, result);
             } else {

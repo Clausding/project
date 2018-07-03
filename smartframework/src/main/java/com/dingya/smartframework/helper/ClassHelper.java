@@ -34,7 +34,7 @@ public class ClassHelper {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
         for (Class<?> cls :
                 CLASS_SET) {
-            if (cls.isAssignableFrom(superClass) && !superClass.equals(cls)) {
+            if (superClass.isAssignableFrom(cls) && !superClass.equals(cls)) {
                 classSet.add(cls);
             }
         }

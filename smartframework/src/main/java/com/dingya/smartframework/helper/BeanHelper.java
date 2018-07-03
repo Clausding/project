@@ -34,7 +34,6 @@ public class BeanHelper {
      * @param object 对象
      */
     public static void setBean(Class<?> cls, Object object) {
-        System.out.printf("object: %s",object);
         BEAN_MAP.put(cls, object);
     }
 

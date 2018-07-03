@@ -22,10 +22,16 @@ public class AopHelper {
         try {
             Map<Class<?>, Set<Class<?>>> proxyMap = createProxyMap();
             Map<Class<?>, List<Proxy>> targetMap = createTargetMap(proxyMap);
+            //调试
+            System.out.printf("proxyMap: %s\n", proxyMap);
+            System.out.printf("targetMap: %s\n\n", targetMap);
             for (Map.Entry<Class<?>, List<Proxy>> entry : targetMap.entrySet()) {
                 Class<?> targetClass = entry.getKey();
                 List<Proxy> proxyList = entry.getValue();
                 Object proxy = ProxyManager.createProxy(targetClass, proxyList);
+                //调试
+                System.out.printf("targetClass: %s\n", targetClass);
+                System.out.printf("proxy: %s\n\n", proxy);
                 BeanHelper.setBean(targetClass, proxy);
             }
         } catch (Exception e) {

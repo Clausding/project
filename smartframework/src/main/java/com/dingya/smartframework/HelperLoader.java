@@ -1,6 +1,5 @@
 package com.dingya.smartframework;
 
-import com.dingya.smartframework.annotation.Controller;
 import com.dingya.smartframework.helper.*;
 import com.dingya.smartframework.util.ClassUtil;
 

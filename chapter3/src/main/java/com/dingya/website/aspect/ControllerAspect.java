@@ -1,7 +1,8 @@
-package com.dingya.smartframework.proxy;
+package com.dingya.website.aspect;
 
 import com.dingya.smartframework.annotation.Aspect;
 import com.dingya.smartframework.annotation.Controller;
+import com.dingya.smartframework.proxy.AspectProxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +14,7 @@ import java.lang.reflect.Method;
  * @Date: Created in 11:23 2018/7/2
  */
 @Aspect(Controller.class)
-public class ControllerAspect extends AspectProxy{
+public class ControllerAspect extends AspectProxy {
     private static final Logger LOGGER = LoggerFactory.getLogger(ControllerAspect.class);
 
     private long begin;
