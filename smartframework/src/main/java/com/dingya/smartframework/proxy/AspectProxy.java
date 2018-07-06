@@ -57,9 +57,11 @@ public abstract class AspectProxy implements Proxy {
     }
 
     public void before(Class<?> targetClass, Method tartgetMethod, Object[] methodParams) throws Throwable {
+        System.out.println("before in AspectProxy.java");
     }
 
     public void after(Class<?> targetClass, Method tartgetMethod, Object[] methodParams, Object result) throws Throwable {
+        System.out.println("after in AspectProxy.java");
     }
 
     public void error(Class<?> targetClass, Method tartgetMethod, Object[] methodParams, Throwable e) throws Throwable {

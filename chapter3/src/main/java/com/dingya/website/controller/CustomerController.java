@@ -23,6 +23,13 @@ public class CustomerController {
     private CustomerService customerService;
 
     /**
+     * 代理测试对象
+     */
+    public void test1(String name) {
+        System.out.println(name);
+    }
+
+    /**
      * 进入 客户列表 页面
      *
      * @param param 请求参数

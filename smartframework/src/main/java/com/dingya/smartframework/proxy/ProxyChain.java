@@ -25,7 +25,7 @@ public class ProxyChain {
      */
     private final Method targetMethod;
     /**
-     * 代理方法
+     * 方法代理
      */
     private final MethodProxy methodProxy;
     /**
@@ -47,7 +47,7 @@ public class ProxyChain {
      * @param targetClass  目标类
      * @param targetObject 目标对象
      * @param targetMethod 目标方法
-     * @param methodProxy  代理方法
+     * @param methodProxy  方法代理
      * @param methodParams 方法参数
      * @param proxyList    代理对象容器
      */
@@ -61,7 +61,7 @@ public class ProxyChain {
     }
 
     /**
-     * 执行代理链条
+     * 执行代理链
      *
      * @return
      * @throws Throwable

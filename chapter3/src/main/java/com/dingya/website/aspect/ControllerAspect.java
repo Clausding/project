@@ -29,7 +29,7 @@ public class ControllerAspect extends AspectProxy {
 
     @Override
     public void after(Class<?> targetClass, Method tartgetMethod, Object[] methodParams, Object result) throws Throwable {
-        LOGGER.debug(String.format("time: %ds", System.currentTimeMillis() - begin));
+        LOGGER.debug(String.format("time: %dms", System.currentTimeMillis() - begin));
         LOGGER.debug("------------end-----------");
     }
 }

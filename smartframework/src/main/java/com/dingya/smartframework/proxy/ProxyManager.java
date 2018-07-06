@@ -15,7 +15,7 @@ import java.util.List;
 @SuppressWarnings("unchecked")
 public class ProxyManager {
     /**
-     * 利用cglib制造一个代理对象
+     * 利用cglib生成一个代理对象
      *
      * @param targetClass 目标类
      * @param proxyList   代理对象列表

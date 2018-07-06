@@ -2,38 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bb85e2-1168-45d8-95af-e0a012a2531b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/HelperLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/HelperLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/AopHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/AopHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/BeanHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/BeanHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ClassHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ClassHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/ControllerAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/Proxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/test/java/com/dingya/smartframework/helper/ClassHelperTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/HelperLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/HelperLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/AopHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/AopHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/BeanHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/BeanHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ClassHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ClassHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/AspectProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/AspectProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ControllerAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/proxy/ProxyManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/test-classes/com/dingya/smartframework/helper/ClassHelperTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,13 +23,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ControllerAspect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-24">
+              <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+              <folding>
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +81,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/website/bean/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/website/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java" />
       </list>
     </option>
@@ -118,8 +124,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,16 +131,99 @@
               <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dingya" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dingya" type="462c0819:PsiDirectoryNode" />
+              <item name="smartframework" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -172,32 +259,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.chapter3 [tomcat7:run]">
+  <component name="RunManager" selected="JUnit.ProxyManagerTest.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BeanHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dingya.smartframework.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dingya.smartframework.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.dingya.smartframework.helper.BeanHelperTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ControllerHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter3" />
@@ -222,29 +286,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ControllerHelperTest.printMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chapter3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dingya.smartframework.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.dingya.smartframework.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.dingya.smartframework.helper.ControllerHelperTest" />
-      <option name="METHOD_NAME" value="printMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="CustomerServiceTest.getCustomerList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chapter3" />
       <extension name="coverage">
@@ -258,6 +299,52 @@
       <option name="PACKAGE_NAME" value="com.dingya.website.service" />
       <option name="MAIN_CLASS_NAME" value="com.dingya.website.service.CustomerServiceTest" />
       <option name="METHOD_NAME" value="getCustomerList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProxyManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dingya.smartframework.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dingya.smartframework.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.dingya.smartframework.proxy.ProxyManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProxyManagerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dingya.smartframework.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dingya.smartframework.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.dingya.smartframework.proxy.ProxyManagerTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -331,19 +418,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BeanHelperTest" />
-      <item itemvalue="JUnit.ControllerHelperTest.printMap" />
       <item itemvalue="JUnit.ControllerHelperTest" />
       <item itemvalue="JUnit.CustomerServiceTest.getCustomerList" />
       <item itemvalue="Maven.chapter3 [tomcat7:run]" />
+      <item itemvalue="JUnit.ProxyManagerTest.test1" />
+      <item itemvalue="JUnit.ProxyManagerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProxyManagerTest.test1" />
+        <item itemvalue="JUnit.ProxyManagerTest" />
         <item itemvalue="Maven.chapter3 [tomcat7:run]" />
         <item itemvalue="JUnit.CustomerServiceTest.getCustomerList" />
         <item itemvalue="JUnit.ControllerHelperTest" />
-        <item itemvalue="JUnit.ControllerHelperTest.printMap" />
-        <item itemvalue="JUnit.BeanHelperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -361,35 +448,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassHelperTest - 2018.06.27 at 16h 29m 41s.xml">
-      <configuration name="ClassHelperTest" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 30m 03s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassHelperTest - 2018.06.27 at 16h 33m 17s.xml">
-      <configuration name="ClassHelperTest" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 36m 43s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanHelperTest - 2018.06.28 at 09h 45m 45s.xml">
-      <configuration name="BeanHelperTest" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 37m 19s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ControllerHelperTest_printMap - 2018.06.28 at 14h 59m 59s.xml">
-      <configuration name="ControllerHelperTest.printMap" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 37m 30s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ControllerHelperTest - 2018.06.28 at 15h 06m 18s.xml">
-      <configuration name="ControllerHelperTest" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 42m 37s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerServiceTest_getCustomerList - 2018.06.29 at 15h 00m 42s.xml">
-      <configuration name="CustomerServiceTest.getCustomerList" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 44m 10s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerServiceTest_getCustomerList - 2018.06.29 at 15h 01m 26s.xml">
-      <configuration name="CustomerServiceTest.getCustomerList" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 47m 09s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerServiceTest_getCustomerList - 2018.06.29 at 15h 02m 02s.xml">
-      <configuration name="CustomerServiceTest.getCustomerList" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 48m 29s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerServiceTest_getCustomerList - 2018.06.29 at 15h 04m 58s.xml">
-      <configuration name="CustomerServiceTest.getCustomerList" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 10h 48m 41s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomerServiceTest_getCustomerList - 2018.06.29 at 15h 05m 37s.xml">
-      <configuration name="CustomerServiceTest.getCustomerList" configurationId="JUnit" />
+    <history-entry file="ProxyManagerTest_test1 - 2018.07.06 at 13h 58m 27s.xml">
+      <configuration name="ProxyManagerTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -403,29 +490,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928944" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.429771" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.9329897" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.91237116" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3167939" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3114504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.74398625" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.74398625" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -437,10 +525,85 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -483,9 +646,6 @@
           <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/service.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/ClassUtilTest.java">
@@ -560,13 +720,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/bean/Param.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/bean/Data.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -621,20 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/helper/ClassHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -660,6 +799,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/proxy/AspectProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/proxy/ProxyManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="124" selection-start-line="20" selection-start-column="124" selection-end-line="20" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/proxy/Proxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/proxy/ProxyChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#473#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dingya/smart-framework/1.0.0/smart-framework-1.0.0.jar!/com/dingya/smartframework/bean/Param.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
