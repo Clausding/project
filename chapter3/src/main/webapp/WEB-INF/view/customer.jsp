@@ -21,6 +21,7 @@
     </tr>
     <c:forEach var="customer" items="${customerList}">
         <tr>
+            <input type="hidden" id ="id" value="${customer.id}">
             <td>${customer.name}</td>
             <td>${customer.contact}</td>
             <td>${customer.telephone}</td>
@@ -32,6 +33,8 @@
         </tr>
     </c:forEach>
 </table>
+
+<a href="${BASE}/customer_create">新增用户</a>
 
 </body>
 </html>

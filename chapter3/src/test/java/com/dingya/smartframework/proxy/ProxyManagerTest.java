@@ -19,6 +19,5 @@ public class ProxyManagerTest {
         List<Proxy> proxyList = new ArrayList<Proxy>();
         proxyList.add(new ControllerAspect());
         CustomerController proxy = ProxyManager.createProxy(targetClass, proxyList);
-        proxy.test1("tony");
     }
 }

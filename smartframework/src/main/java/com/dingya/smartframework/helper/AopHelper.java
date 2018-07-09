@@ -1,9 +1,12 @@
 package com.dingya.smartframework.helper;
 
 import com.dingya.smartframework.annotation.Aspect;
+import com.dingya.smartframework.annotation.Service;
+import com.dingya.smartframework.annotation.Transaction;
 import com.dingya.smartframework.proxy.AspectProxy;
 import com.dingya.smartframework.proxy.Proxy;
 import com.dingya.smartframework.proxy.ProxyManager;
+import com.dingya.smartframework.proxy.TransactionProxy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -71,6 +74,25 @@ public class AopHelper {
     private static Map<Class<?>, Set<Class<?>>> createProxyMap() {
         // 关系映射容器（代理类：目标类集合）
         Map<Class<?>, Set<Class<?>>> proxyMap = new HashMap<Class<?>, Set<Class<?>>>();
+        addAspectProxy(proxyMap);
+        addTransactionProxy(proxyMap);
+        return proxyMap;
+    }
+
+    /**
+     * 添加事务代理关系
+     * @param proxyMap
+     */
+    private static void addTransactionProxy(Map proxyMap) {
+        Set<Class<?>> serviceClassSet = ClassHelper.getClasssetByAnnotaion(Service.class);
+        proxyMap.put(TransactionProxy.class, serviceClassSet);
+    }
+
+    /**
+     * 添加一般代理关系
+     * @param proxyMap
+     */
+    private static void addAspectProxy(Map proxyMap) {
         // AspectProxy的子类集合
         Set<Class<?>> proxyClassSet = ClassHelper.getClassBySuper(AspectProxy.class);
         for (Class<?> proxyClass :
@@ -82,7 +104,6 @@ public class AopHelper {
                 proxyMap.put(proxyClass, targetClassSet);
             }
         }
-        return proxyMap;
     }
 
     /**

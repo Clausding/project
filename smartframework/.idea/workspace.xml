@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed00a775-4557-414e-9eea-408450fc5a24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/TransactionProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/aspect/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/aspect/ControllerAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/java/com/dingya/website/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view/customer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view/customer_create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/main/webapp/WEB-INF/view/customer_create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,64 +28,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544">
+              <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9837#9845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionProxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/TransactionProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#383#514#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AopHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/Proxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProxyChain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspectProxy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BeanHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/BeanHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="85" column="59" lean-forward="true" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -95,8 +82,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -150,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/StreamUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/CodecUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/IocHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/util/ReflectionUtil.java" />
@@ -165,6 +151,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/TransactionProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java" />
       </list>
     </option>
@@ -254,9 +243,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,7 +503,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,7 +516,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32671756" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33969465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -548,14 +536,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24961832" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.76632303" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33206108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.76632303" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -587,13 +575,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/util/PropsUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resource/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7344">
-          <caret line="308" column="41" lean-forward="true" selection-start-line="308" selection-start-column="41" selection-end-line="308" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/bean/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -824,7 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/TransactionProxy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/ControllerHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -862,24 +832,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="336">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/ProxyChain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="73" column="25" lean-forward="true" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1656">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/BeanHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="720">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -889,17 +856,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        <state relative-caret-position="552">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/AspectProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/AopHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="175">
+          <caret line="85" column="59" lean-forward="true" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/helper/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9837#9845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/annotation/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/smartframework/proxy/TransactionProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#383#514#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

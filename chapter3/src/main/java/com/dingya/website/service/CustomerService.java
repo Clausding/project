@@ -1,6 +1,7 @@
 package com.dingya.website.service;
 
 import com.dingya.smartframework.annotation.Service;
+import com.dingya.smartframework.annotation.Transaction;
 import com.dingya.smartframework.helper.DatabaseHelper;
 import com.dingya.website.bean.Customer;
 
@@ -43,7 +44,27 @@ public class CustomerService {
      * @param paramMap 请求参数集合
      * @return 布尔值
      */
+    @Transaction
     public boolean updateCustomer(Long id, Map<String, Object> paramMap) {
         return DatabaseHelper.updateEntity(Customer.class, id, paramMap);
+    }
+
+    /**
+     * 删除用户
+     * @param id
+     */
+    @Transaction
+    public boolean deleteCustomer(Long id) {
+        return DatabaseHelper.deleteEntity(Customer.class, id);
+    }
+
+    /**
+     * 创建用户
+     * @param paramMap
+     * @return
+     */
+    @Transaction
+    public boolean createCustomer(Map<String,Object> paramMap) {
+         return DatabaseHelper.insertEntity(Customer.class, paramMap);
     }
 }
