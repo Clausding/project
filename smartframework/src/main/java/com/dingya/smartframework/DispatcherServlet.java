@@ -1,9 +1,6 @@
 package com.dingya.smartframework;
 
-import com.dingya.smartframework.bean.Data;
-import com.dingya.smartframework.bean.Handler;
-import com.dingya.smartframework.bean.Param;
-import com.dingya.smartframework.bean.View;
+import com.dingya.smartframework.bean.*;
 import com.dingya.smartframework.helper.BeanHelper;
 import com.dingya.smartframework.helper.ConfigHelper;
 import com.dingya.smartframework.helper.ControllerHelper;
@@ -33,6 +30,7 @@ import java.util.Map;
  */
 @WebServlet(urlPatterns = "/*", loadOnStartup = 0)
 public class DispatcherServlet extends HttpServlet {
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // 获取Handler对象
@@ -74,35 +72,62 @@ public class DispatcherServlet extends HttpServlet {
 
         // 根据控制器方法返回值，返回JSP页面或JSON数据
         if (result instanceof View) {
-            View view = (View) result;
-            String viewPath = view.getPath();
-            if (!StringUtil.isEmpty(viewPath)) {
-                if (viewPath.startsWith("/")) {
-                    resp.sendRedirect(req.getContextPath() + viewPath);
-                } else {
-                    Map<String, Object> model = view.getModel();
-                    for (Map.Entry<String, Object> entry:
-                         model.entrySet()) {
-                        req.setAttribute(entry.getKey(), entry.getValue());
-                    }
-                    req.getRequestDispatcher(ConfigHelper.getAppJspPath() + viewPath).forward(req,resp);
-                }
-            }
+            handleViewResult((View) result, req, resp);
         } else if (result instanceof Data) {
-            Data data = (Data) result;
-            Object model = data.getModel();
-            if (model != null) {
-                resp.setContentType("application/json");
-                resp.setCharacterEncoding("UTF-8");
-                PrintWriter writer = resp.getWriter();
-                String json = JsonUtil.toJson(model);
-                writer.write(json);
-                writer.flush();
-                writer.close();
+            handleDataResult((Data) result, req, resp);
+        }
+    }
+
+    /**
+     * 处理数据结果
+     * @param data
+     * @param req
+     * @param resp
+     * @throws IOException
+     */
+    private void handleDataResult(Data data, HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        Object model = data.getModel();
+        if (model != null) {
+            resp.setContentType("application/json");
+            resp.setCharacterEncoding("UTF-8");
+            PrintWriter writer = resp.getWriter();
+            String json = JsonUtil.toJson(model);
+            writer.write(json);
+            writer.flush();
+            writer.close();
+        }
+    }
+
+    /**
+     * 处理视图结果
+     *
+     * @param view
+     * @param req
+     * @param resp
+     * @throws ServletException
+     * @throws IOException
+     */
+    private void handleViewResult(View view, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String viewPath = view.getPath();
+        if (!StringUtil.isEmpty(viewPath)) {
+            if (viewPath.startsWith("/")) {
+                resp.sendRedirect(req.getContextPath() + viewPath);
+            } else {
+                Map<String, Object> model = view.getModel();
+                for (Map.Entry<String, Object> entry :
+                        model.entrySet()) {
+                    req.setAttribute(entry.getKey(), entry.getValue());
+                }
+                req.getRequestDispatcher(ConfigHelper.getAppJspPath() + viewPath).forward(req, resp);
             }
         }
     }
 
+    /**
+     * 初始化
+     *
+     * @param servletConfig
+     */
     @Override
     public void init(ServletConfig servletConfig) {
         // bean容器，依赖注入和请求和处理器关系 初始化

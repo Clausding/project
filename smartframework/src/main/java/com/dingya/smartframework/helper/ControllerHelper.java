@@ -63,22 +63,7 @@ public final class ControllerHelper {
      */
     public static Handler getHandler(String requestMethod, String requestPath) {
         Request request = new Request(requestMethod, requestPath);
-//        System.out.println("-------request--------" + request);
-//        System.out.println("-------ACTION_MAP--------");
-//        printMap();
         Handler handler = ACTION_MAP.get(request);
         return handler;
-    }
-
-    /**
-     * 打印Map，用于测试
-     */
-    public static void printMap() {
-        for (Map.Entry<Request, Handler> entry :
-                ACTION_MAP.entrySet()) {
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
-            System.out.println();
-        }
     }
 }

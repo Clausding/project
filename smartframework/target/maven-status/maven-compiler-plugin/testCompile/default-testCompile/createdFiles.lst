@@ -1,0 +1,5 @@
+com\dingya\smartframework\helper\BeanHelperTest.class
+com\dingya\smartframework\util\PropsUtilTest.class
+com\dingya\smartframework\util\ClassUtilTest.class
+com\dingya\smartframework\helper\ControllerHelperTest.class
+com\dingya\smartframework\helper\ConfigHelperTest.class
