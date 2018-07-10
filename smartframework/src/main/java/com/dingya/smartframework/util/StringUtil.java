@@ -10,10 +10,10 @@ import org.apache.commons.lang3.StringUtils;
 public class StringUtil {
 
     /**
-     * 判断字符串是 null 空格 空字符串 吗？
+     * 字符串是否属于： null/空格/空字符串
      *
-     * @param str
-     * @return 布尔值
+     * @param str 字符串
+     * @return boolean
      */
     public static boolean isEmpty(String str) {
         if (str != null) {

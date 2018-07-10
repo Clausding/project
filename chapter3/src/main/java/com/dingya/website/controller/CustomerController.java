@@ -25,11 +25,10 @@ public class CustomerController {
     /**
      * 进入 客户列表 页面
      *
-     * @param param 请求参数
      * @return 页面
      */
     @Action("get:/customer")
-    public View getindex(Param param) {
+    public View getindex() {
         List<Customer> customerList = customerService.getCustomerList();
         return new View("customer.jsp").addMOdel("customerList", customerList);
     }
@@ -77,11 +76,10 @@ public class CustomerController {
     /**
      * 进入 创建用户 界面
      *
-     * @param param 请求参数
      * @return 页面
      */
     @Action("get:/customer_create")
-    public View getCustomerCreate(Param param) {
+    public View getCustomerCreate() {
         return new View("customer_create.jsp");
     }
 

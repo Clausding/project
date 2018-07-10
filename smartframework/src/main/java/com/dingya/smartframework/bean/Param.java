@@ -1,5 +1,7 @@
 package com.dingya.smartframework.bean;
 
+import org.apache.commons.collections4.MapUtils;
+
 import java.util.Map;
 
 /**
@@ -30,5 +32,14 @@ public class Param {
      */
     public Map<String, Object> getParamMap() {
         return paramMap;
+    }
+
+    /**
+     * 判断参数容器是否为空
+     *
+     * @return 布尔值结果
+     */
+    public boolean isEmpty() {
+        return MapUtils.isEmpty(this.paramMap);
     }
 }

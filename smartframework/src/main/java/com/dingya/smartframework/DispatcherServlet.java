@@ -33,16 +33,39 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // 获取Handler对象
-        String reqMethod = req.getMethod().toLowerCase();
-        String reqPathInfo = req.getPathInfo();
-        Handler handler = ControllerHelper.getHandler(reqMethod, reqPathInfo);
-        Class<?> controllerClass = handler.getControllerClass();
-        Object controllerBean = BeanHelper.getBean(controllerClass);
+        // 找到 Param 对象
+        Param param = getParam(req);
+        // 找到 Method 对象
+        Handler handler = getHandler(req);
+        Method method = handler.getActionMethod();
+        // 找到 Object 对象
+        Object controllerBean = BeanHelper.getBean(handler.getControllerClass());
 
-        // 获取Param对象
+        // 调用控制器方法
+        Object result = null;
+        if (param.isEmpty()) {
+            result = ReflectionUtil.invokeMethod(controllerBean, method);
+        } else {
+            result = ReflectionUtil.invokeMethod(controllerBean, method, param);
+        }
+
+        // 根据控制器方法返回值，返回JSP页面或JSON数据
+        if (result instanceof View) {
+            handleViewResult((View) result, req, resp);
+        } else if (result instanceof Data) {
+            handleDataResult((Data) result, req, resp);
+        }
+    }
+
+    /**
+     * 获得 Param 对象
+     *
+     * @param req  Request 对象
+     * @return 请求参数对象
+     */
+    private Param getParam(HttpServletRequest req) throws IOException {
         Map<String, Object> paramMap = new HashMap<String, Object>();
-        // 取出参数
+        // 取出请求链接中的参数
         Enumeration<String> paramNames = req.getParameterNames();
         while (paramNames.hasMoreElements()) {
             String paramName = paramNames.nextElement();
@@ -64,22 +87,24 @@ public class DispatcherServlet extends HttpServlet {
                 }
             }
         }
-        Param param = new Param(paramMap);
+        return new Param(paramMap);
+    }
 
-        // 调用控制器方法
-        Method method = handler.getActionMethod();
-        Object result = ReflectionUtil.invokeMethod(controllerBean, method, param);
-
-        // 根据控制器方法返回值，返回JSP页面或JSON数据
-        if (result instanceof View) {
-            handleViewResult((View) result, req, resp);
-        } else if (result instanceof Data) {
-            handleDataResult((Data) result, req, resp);
-        }
+    /**
+     * 获得 Handler 对象
+     *
+     * @param req  Request 对象
+     * @return 封装了Action信息的对象
+     */
+    private Handler getHandler(HttpServletRequest req) {
+        String reqMethod = req.getMethod().toLowerCase();
+        String reqPathInfo = req.getPathInfo();
+        return ControllerHelper.getHandler(reqMethod, reqPathInfo);
     }
 
     /**
      * 处理数据结果
+     *
      * @param data
      * @param req
      * @param resp
