@@ -1,9 +1,7 @@
 package com.dingya.smartframework;
 
 import com.dingya.smartframework.bean.*;
-import com.dingya.smartframework.helper.BeanHelper;
-import com.dingya.smartframework.helper.ConfigHelper;
-import com.dingya.smartframework.helper.ControllerHelper;
+import com.dingya.smartframework.helper.*;
 import com.dingya.smartframework.util.*;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -33,73 +31,39 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // 找到 Param 对象
-        Param param = getParam(req);
-        // 找到 Method 对象
-        Handler handler = getHandler(req);
-        Method method = handler.getActionMethod();
-        // 找到 Object 对象
-        Object controllerBean = BeanHelper.getBean(handler.getControllerClass());
-
-        // 调用控制器方法
-        Object result = null;
-        if (param.isEmpty()) {
-            result = ReflectionUtil.invokeMethod(controllerBean, method);
-        } else {
-            result = ReflectionUtil.invokeMethod(controllerBean, method, param);
-        }
-
-        // 根据控制器方法返回值，返回JSP页面或JSON数据
-        if (result instanceof View) {
-            handleViewResult((View) result, req, resp);
-        } else if (result instanceof Data) {
-            handleDataResult((Data) result, req, resp);
-        }
-    }
-
-    /**
-     * 获得 Param 对象
-     *
-     * @param req  Request 对象
-     * @return 请求参数对象
-     */
-    private Param getParam(HttpServletRequest req) throws IOException {
-        Map<String, Object> paramMap = new HashMap<String, Object>();
-        // 取出请求链接中的参数
-        Enumeration<String> paramNames = req.getParameterNames();
-        while (paramNames.hasMoreElements()) {
-            String paramName = paramNames.nextElement();
-            String paramValue = req.getParameter(paramName);
-            paramMap.put(paramName, paramValue);
-        }
-        // 取出请求体中的参数
-        String body = CodecUtil.decodeURL(StreamUtil.getString(req.getInputStream()));
-        if (!StringUtil.isEmpty(body)) {
-            String[] params = StringUtils.splitByWholeSeparator(body, "&");
-            if (params != null && !ArrayUtils.isEmpty(params)) {
-                for (int i = 0; i < params.length; i++) {
-                    String[] strings = params[i].split("=");
-                    if (strings != null && strings.length == 2) {
-                        String paramName = strings[0];
-                        String paramValue = strings[1];
-                        paramMap.put(paramName, paramValue);
-                    }
-                }
-            }
-        }
-        return new Param(paramMap);
-    }
-
-    /**
-     * 获得 Handler 对象
-     *
-     * @param req  Request 对象
-     * @return 封装了Action信息的对象
-     */
-    private Handler getHandler(HttpServletRequest req) {
         String reqMethod = req.getMethod().toLowerCase();
         String reqPathInfo = req.getPathInfo();
-        return ControllerHelper.getHandler(reqMethod, reqPathInfo);
+        if (reqPathInfo.equals("/favicon.ico")) {
+            return;
+        }
+        Handler handler = ControllerHelper.getHandler(reqMethod, reqPathInfo);
+        if (handler != null) {
+            // 获得 Method 对象
+            Method method = handler.getActionMethod();
+            // 找到 Object 对象
+            Object controllerBean = BeanHelper.getBean(handler.getControllerClass());
+            // 找到 Param 对象
+            Param param;
+            if (UploadHelper.isRequestMultipart(req)) {
+                param = UploadHelper.createParam(req);
+            } else {
+                param = RequestHelper.createParam(req);
+            }
+            // 调用控制器方法
+            Object result = null;
+            if (param.isEmpty()) {
+                result = ReflectionUtil.invokeMethod(controllerBean, method);
+            } else {
+                result = ReflectionUtil.invokeMethod(controllerBean, method, param);
+            }
+
+            // 根据控制器方法返回值，返回JSP页面或JSON数据
+            if (result instanceof View) {
+                handleViewResult((View) result, req, resp);
+            } else if (result instanceof Data) {
+                handleDataResult((Data) result, req, resp);
+            }
+        }
     }
 
     /**
@@ -149,20 +113,31 @@ public class DispatcherServlet extends HttpServlet {
     }
 
     /**
+     * 注册 Servlet 对象
+     *
+     * @param servletContext
+     */
+    public void registerServlet(ServletContext servletContext) {
+        // 注册 处理jsp的servlet
+        ServletRegistration jspServlet = servletContext.getServletRegistration("jsp");
+//        jspServlet.addMapping("index.jsp");
+        jspServlet.addMapping(ConfigHelper.getAppJspPath() + "*");
+        // 注册 处理静态资源的默认servlet
+        ServletRegistration defaultServlet = servletContext.getServletRegistration("default");
+        defaultServlet.addMapping("/favicon.ico");
+        defaultServlet.addMapping(ConfigHelper.getAppAssertPath() + "*");
+    }
+
+    /**
      * 初始化
      *
      * @param servletConfig
      */
     @Override
     public void init(ServletConfig servletConfig) {
-        // bean容器，依赖注入和请求和处理器关系 初始化
         HelperLoader.init();
         ServletContext servletContext = servletConfig.getServletContext();
-        // 注册处理jsp的servlet
-        ServletRegistration jspServlet = servletContext.getServletRegistration("jsp");
-        // 注册处理静态资源的默认servlet
-        ServletRegistration defaultServlet = servletContext.getServletRegistration("default");
-        jspServlet.addMapping(ConfigHelper.getAppJspPath() + "*");
-        defaultServlet.addMapping(ConfigHelper.getAppAssertPath() + "*");
+        registerServlet(servletContext);
+        UploadHelper.init(servletContext);
     }
 }

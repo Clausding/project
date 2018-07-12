@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [09/Jul/2018:15:48:21 +0800] "GET /chapter3/customer HTTP/1.1" 200 3464 http-bio-8080-exec-1 1643
-0:0:0:0:0:0:0:1 - - [09/Jul/2018:15:48:25 +0800] "GET /chapter3/customer_edit?id=5 HTTP/1.1" 200 1396 http-bio-8080-exec-3 196
-0:0:0:0:0:0:0:1 - - [09/Jul/2018:15:48:27 +0800] "PUT /chapter3/customer_edit HTTP/1.1" 200 14 http-bio-8080-exec-4 348
-0:0:0:0:0:0:0:1 - - [09/Jul/2018:15:48:27 +0800] "GET /chapter3/customer HTTP/1.1" 200 3464 http-bio-8080-exec-5 20

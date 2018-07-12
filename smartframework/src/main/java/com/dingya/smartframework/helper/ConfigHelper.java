@@ -83,4 +83,17 @@ public class ConfigHelper {
         }
         return value;
     }
+
+    /**
+     * 获取应用文件上传限制
+     *
+     * @return
+     */
+    public static int getAppUploadLimit() {
+        String value = PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_UPLOAD_LIMIT);
+        if(value.length() == 0) {
+            return 10;
+        }
+        return Integer.parseInt(value);
+    }
 }

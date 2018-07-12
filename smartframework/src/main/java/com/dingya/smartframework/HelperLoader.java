@@ -10,6 +10,9 @@ import com.dingya.smartframework.util.ClassUtil;
  */
 public class HelperLoader {
 
+    /**
+     * bean容器 / 依赖注入 / 请求和处理器关系 的初始化
+     */
     public static void init() {
         Class<?> [] classes = {
                 ClassHelper.class,

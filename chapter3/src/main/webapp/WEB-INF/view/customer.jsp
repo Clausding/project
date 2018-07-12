@@ -9,7 +9,9 @@
 </head>
 <body>
 
-<h1>客户列表</h1>
+<h1><a href="${BASE}/">首页</a> / 客户列表</h1>
+
+<h2><a href="${BASE}/customer_create">创建客户</a></h2>
 
 <table>
     <tr>
@@ -21,7 +23,6 @@
     </tr>
     <c:forEach var="customer" items="${customerList}">
         <tr>
-            <input type="hidden" id ="id" value="${customer.id}">
             <td>${customer.name}</td>
             <td>${customer.contact}</td>
             <td>${customer.telephone}</td>
@@ -33,8 +34,6 @@
         </tr>
     </c:forEach>
 </table>
-
-<a href="${BASE}/customer_create">新增用户</a>
 
 </body>
 </html>

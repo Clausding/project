@@ -4,6 +4,7 @@ import com.dingya.smartframework.annotation.Action;
 import com.dingya.smartframework.annotation.Controller;
 import com.dingya.smartframework.annotation.Inject;
 import com.dingya.smartframework.bean.Data;
+import com.dingya.smartframework.bean.FileParam;
 import com.dingya.smartframework.bean.Param;
 import com.dingya.smartframework.bean.View;
 import com.dingya.website.bean.Customer;
@@ -41,7 +42,7 @@ public class CustomerController {
      */
     @Action("get:/customer_edit")
     public View getCustomerEdit(Param param) {
-        Long id = Long.parseLong((String) param.getParamMap().get("id"));
+        Long id = Long.parseLong(param.getString("id"));
         Customer customer = customerService.getCustomer(id);
         return new View("customer_edit.jsp").addMOdel("customer", customer);
     }
@@ -54,7 +55,7 @@ public class CustomerController {
      */
     @Action("get:/customer_delete")
     public Data deleteCustomer(Param param) {
-        Long id = Long.parseLong((String) param.getParamMap().get("id"));
+        Long id = Long.parseLong(param.getString("id"));
         boolean isSuccess = customerService.deleteCustomer(id);
         return new Data(isSuccess);
     }
@@ -67,8 +68,8 @@ public class CustomerController {
      */
     @Action("put:/customer_edit")
     public Data putCustomerEdit(Param param) {
-        Long id = Long.parseLong((String) param.getParamMap().get("id"));
-        Map<String, Object> paramMap = param.getParamMap();
+        Long id = Long.parseLong(param.getString("id"));
+        Map<String, Object> paramMap = param.getFormParamMap();
         boolean isSuccess = customerService.updateCustomer(id, paramMap);
         return new Data(isSuccess);
     }
@@ -84,15 +85,16 @@ public class CustomerController {
     }
 
     /**
-     * 点击 创建用户 按钮
+     * 创建用户页面：点击 创建用户 按钮
      *
      * @param param 请求参数
      * @return 数据
      */
-    @Action("put:/customer_create")
-    public Data putCustomerCreate(Param param) {
-        Map<String, Object> paramMap = param.getParamMap();
-        boolean isSuccess = customerService.createCustomer(paramMap);
+    @Action("post:/customer_create")
+    public Data createCustomer(Param param) {
+        Map<String, Object> paramMap = param.getFormParamMap();
+        FileParam fileParam = param.getFile("photo");
+        boolean isSuccess = customerService.createCustomer(paramMap, fileParam);
         return new Data(isSuccess);
     }
 }

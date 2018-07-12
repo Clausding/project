@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h1>编辑客户界面</h1>
+<h1><a href="${BASE}/">首页</a> / <a href="${BASE}/customer">客户管理</a> / 编辑客户界面</h1>
 
 <form id="customer_form">
     <input type="hidden" name="id" value="${customer.id}">

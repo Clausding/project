@@ -2,7 +2,9 @@ package com.dingya.website.service;
 
 import com.dingya.smartframework.annotation.Service;
 import com.dingya.smartframework.annotation.Transaction;
+import com.dingya.smartframework.bean.FileParam;
 import com.dingya.smartframework.helper.DatabaseHelper;
+import com.dingya.smartframework.helper.UploadHelper;
 import com.dingya.website.bean.Customer;
 
 import java.util.List;
@@ -64,7 +66,11 @@ public class CustomerService {
      * @return
      */
     @Transaction
-    public boolean createCustomer(Map<String,Object> paramMap) {
-         return DatabaseHelper.insertEntity(Customer.class, paramMap);
+    public boolean createCustomer(Map<String,Object> paramMap, FileParam fileParam) {
+        boolean result = DatabaseHelper.insertEntity(Customer.class, paramMap);
+        if (result) {
+            UploadHelper.uploadFile("e:temp/upload/", fileParam);
+        }
+        return result;
     }
 }
