@@ -1,10 +1,13 @@
 package com.dingya.smartframework;
 
-import com.dingya.smartframework.bean.*;
+import com.dingya.smartframework.bean.Data;
+import com.dingya.smartframework.bean.Handler;
+import com.dingya.smartframework.bean.Param;
+import com.dingya.smartframework.bean.View;
 import com.dingya.smartframework.helper.*;
-import com.dingya.smartframework.util.*;
-import org.apache.commons.lang3.ArrayUtils;
-import org.apache.commons.lang3.StringUtils;
+import com.dingya.smartframework.util.JsonUtil;
+import com.dingya.smartframework.util.ReflectionUtil;
+import com.dingya.smartframework.util.StringUtil;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
@@ -17,8 +20,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
-import java.util.Enumeration;
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -31,38 +32,43 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String reqMethod = req.getMethod().toLowerCase();
-        String reqPathInfo = req.getPathInfo();
-        if (reqPathInfo.equals("/favicon.ico")) {
-            return;
-        }
-        Handler handler = ControllerHelper.getHandler(reqMethod, reqPathInfo);
-        if (handler != null) {
-            // 获得 Method 对象
-            Method method = handler.getActionMethod();
-            // 找到 Object 对象
-            Object controllerBean = BeanHelper.getBean(handler.getControllerClass());
-            // 找到 Param 对象
-            Param param;
-            if (UploadHelper.isRequestMultipart(req)) {
-                param = UploadHelper.createParam(req);
-            } else {
-                param = RequestHelper.createParam(req);
+        ServletHelper.init(req, resp);
+        try {
+            String reqMethod = req.getMethod().toLowerCase();
+            String reqPathInfo = req.getPathInfo();
+            if (reqPathInfo.equals("/favicon.ico")) {
+                return;
             }
-            // 调用控制器方法
-            Object result = null;
-            if (param.isEmpty()) {
-                result = ReflectionUtil.invokeMethod(controllerBean, method);
-            } else {
-                result = ReflectionUtil.invokeMethod(controllerBean, method, param);
-            }
+            Handler handler = ControllerHelper.getHandler(reqMethod, reqPathInfo);
+            if (handler != null) {
+                // 获得 Method 对象
+                Method method = handler.getActionMethod();
+                // 找到 Object 对象
+                Object controllerBean = BeanHelper.getBean(handler.getControllerClass());
+                // 找到 Param 对象
+                Param param;
+                if (UploadHelper.isRequestMultipart(req)) {
+                    param = UploadHelper.createParam(req);
+                } else {
+                    param = RequestHelper.createParam(req);
+                }
+                // 调用控制器方法
+                Object result = null;
+                if (param.isEmpty()) {
+                    result = ReflectionUtil.invokeMethod(controllerBean, method);
+                } else {
+                    result = ReflectionUtil.invokeMethod(controllerBean, method, param);
+                }
 
-            // 根据控制器方法返回值，返回JSP页面或JSON数据
-            if (result instanceof View) {
-                handleViewResult((View) result, req, resp);
-            } else if (result instanceof Data) {
-                handleDataResult((Data) result, req, resp);
+                // 根据控制器方法返回值，返回JSP页面或JSON数据
+                if (result instanceof View) {
+                    handleViewResult((View) result, req, resp);
+                } else if (result instanceof Data) {
+                    handleDataResult((Data) result, req, resp);
+                }
             }
+        } finally {
+            ServletHelper.destroy();
         }
     }
 

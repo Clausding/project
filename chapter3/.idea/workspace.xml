@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bb85e2-1168-45d8-95af-e0a012a2531b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/FileParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/FormParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/RequestHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/UploadHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/FileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dingya/website/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dingya/website/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customer_show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dingya/website/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingya/website/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dingya/website/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dingya/website/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter3/org/apache/jsp/WEB_002dINF/view/customer_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter3/org/apache/jsp/WEB_002dINF/view/customer_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter3/org/apache/jsp/WEB_002dINF/view/customer_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/chapter3/org/apache/jsp/WEB_002dINF/view/customer_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/HelperLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/HelperLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Param.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/bean/Param.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ConfigHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ConfigHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/StreamUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/StreamUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/HelperLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/HelperLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/bean/Param.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/bean/Param.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ConfigHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ConfigHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ControllerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/helper/ControllerHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/util/StreamUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/util/StreamUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/classes/com/dingya/smartframework/util/StringUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/target/smart-framework-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ServletHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../smartframework/src/main/java/com/dingya/smartframework/helper/ServletHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,7 +91,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="35" />
     <option name="y" value="-19" />
     <option name="width" value="1346" />
@@ -450,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26793894" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29312977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -511,13 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dingya/smartframework/proxy/ProxyManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/aspect/ControllerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -835,10 +806,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp/upload/捕获.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingya/website/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state relative-caret-position="80">
+          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
         </state>
       </provider>
     </entry>

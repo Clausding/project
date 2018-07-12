@@ -11,14 +11,14 @@ import java.io.IOException;
 
 /**
  * @Author: dingya
- * @Description:Servlet助手类
+ * @Description:Servlet助手类,实现与 Servlet API 解耦
  * @Date: Created in 16:15 2018/7/9
  */
 public class ServletHelper {
     private static final Logger LOGGER = LoggerFactory.getLogger(ServletHelper.class);
 
     /**
-     * 本类对象容器
+     * 使每一个线程独立拥有一份 ServletHelper 对象
      */
     private static final ThreadLocal<ServletHelper> SERVLET_HELPER_HOLDER = new ThreadLocal<ServletHelper>();
 
